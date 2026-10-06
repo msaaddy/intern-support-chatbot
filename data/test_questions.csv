@@ -1,0 +1,17 @@
+question,expected_intent
+I need a day off,ask_leave
+How do I request leave?,ask_leave
+Where can I check my internship schedule?,ask_schedule
+When should I come to work?,ask_working_hours
+Who is my supervisor?,ask_supervisor
+How can I contact my supervisor?,ask_supervisor
+Where do I submit my weekly report?,ask_report
+How do I send my internship report?,ask_report
+Where can I see my attendance?,ask_attendance
+How is attendance recorded?,ask_attendance
+Where are my assigned tasks?,ask_tasks
+How do I check my internship work?,ask_tasks
+When will I receive my certificate?,ask_certificate
+How can I get my internship certificate?,ask_certificate
+How can I get feedback?,ask_feedback
+Can my supervisor give me feedback?,ask_feedback

@@ -1,0 +1,11 @@
+ticket_id,query,category,resolution
+T001,I want to take a day off,Leave,Contact supervisor and submit a leave request.
+T002,How do I request internship leave?,Leave,Submit a leave request according to the internship policy.
+T003,What time should I arrive?,Working Hours,Check the official internship working schedule.
+T004,Where can I check my working schedule?,Schedule,Check the schedule provided by the organization.
+T005,I need to contact my supervisor,Supervisor,Use the organization's official communication channel.
+T006,Where should I send my weekly report?,Reports,Submit the report through the reporting system or supervisor.
+T007,Can I check my attendance?,Attendance,Check attendance through the organization's attendance system.
+T008,Where are my assigned tasks?,Tasks,Check the organization's task management system.
+T009,When will I receive my internship certificate?,Certificate,Contact the internship coordinator after completion.
+T010,Can my supervisor give me performance feedback?,Feedback,Ask your supervisor for a performance review.

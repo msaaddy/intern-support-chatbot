@@ -1,0 +1,166 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - hello chatbot
+    - hi there
+    - hello there
+    - hey chatbot
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you later
+    - thanks bye
+    - I have to go
+    - talk to you later
+    - see you
+    - bye chatbot
+    - thank you goodbye
+
+- intent: ask_leave
+  examples: |
+    - How can I apply for leave?
+    - I need a day off
+    - How do I request leave?
+    - What is the leave procedure?
+    - Can I take leave during my internship?
+    - I want to apply for leave
+    - Where can I submit a leave request?
+    - I want to take a day off
+    - How can I get internship leave?
+    - What should I do if I need leave?
+    - I need permission for a day off
+    - Where do I request leave?
+    - What is the procedure for taking leave?
+    - Can interns take leave?
+    - I need to request a day off
+
+- intent: ask_schedule
+  examples: |
+    - Where can I find my internship schedule?
+    - What is my internship schedule?
+    - When do I have to come to the office?
+    - Where can I check my schedule?
+    - Tell me about my working schedule
+    - What days do I work?
+    - When is my internship schedule?
+    - Where can I check my work schedule?
+    - What is my work schedule?
+    - When should I come to work?
+    - What days do interns work?
+    - Where is the internship timetable?
+    - Can I see my internship timetable?
+    - How can I check my schedule?
+
+- intent: ask_supervisor
+  examples: |
+    - How can I contact my supervisor?
+    - Who is my supervisor?
+    - I need to contact my supervisor
+    - How do I reach my supervisor?
+    - Who should I talk to about my internship?
+    - I need help from my supervisor
+    - Where can I contact my supervisor?
+    - How do I communicate with my supervisor?
+    - Who should I contact for internship questions?
+    - I need help from my internship supervisor
+    - Who is responsible for supervising me?
+    - How can I reach my internship supervisor?
+
+- intent: ask_report
+  examples: |
+    - Where do I submit my weekly report?
+    - How can I submit my internship report?
+    - Where should I send my weekly report?
+    - How do I submit my report?
+    - I need to submit my weekly report
+    - What is the report submission procedure?
+    - Where can I submit my report?
+    - How do I send my weekly report?
+    - Who should receive my internship report?
+    - Where should I upload my report?
+    - How often should I submit my report?
+    - What is the procedure for submitting reports?
+
+- intent: ask_attendance
+  examples: |
+    - How is my attendance recorded?
+    - Where can I check my attendance?
+    - How does internship attendance work?
+    - What happens if I miss a day?
+    - Can I check my attendance?
+    - How many days do I need to attend?
+    - Where can I see my attendance?
+    - How is attendance tracked?
+    - How do interns record attendance?
+    - What happens if I am absent?
+    - Can I check my attendance record?
+    - Where is the attendance system?
+
+- intent: ask_tasks
+  examples: |
+    - Where can I see my tasks?
+    - How do I check my assigned tasks?
+    - What are my internship tasks?
+    - Where are my tasks listed?
+    - How can I see my assigned work?
+    - I need information about my tasks
+    - Where can I find my assignments?
+    - What tasks have been assigned to me?
+    - How do I check my internship work?
+    - Where are my assignments?
+    - Can I see my current tasks?
+    - How can I find my assigned work?
+
+- intent: ask_certificate
+  examples: |
+    - How can I get my internship certificate?
+    - When will I receive my certificate?
+    - Where can I request my internship certificate?
+    - Do I get a certificate after completing my internship?
+    - How do I get my completion certificate?
+    - When do interns receive certificates?
+    - Where can I get my completion certificate?
+    - How can I request my certificate?
+    - Will I receive an internship certificate?
+    - What is the certificate procedure?
+    - How do I obtain my internship certificate?
+
+- intent: ask_working_hours
+  examples: |
+    - What are the internship working hours?
+    - What time does the internship start?
+    - What time does the internship end?
+    - When should I arrive?
+    - What are the office hours?
+    - Tell me the working hours
+    - What time should I come to work?
+    - What time should interns arrive?
+    - When does the workday start?
+    - When does the workday end?
+    - What are the office timings?
+    - What are the internship timings?
+
+- intent: ask_feedback
+  examples: |
+    - How can I get feedback?
+    - When will I receive feedback?
+    - How does the feedback process work?
+    - Can my supervisor give me feedback?
+    - Where can I see my performance feedback?
+    - How do I get performance feedback?
+    - When do supervisors provide feedback?
+    - Can I ask my supervisor for feedback?
+    - How can I review my performance?
+    - Where can I get feedback about my work?
+    - Does my supervisor evaluate my performance?

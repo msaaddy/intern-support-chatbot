@@ -1,0 +1,60 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_leave
+  - ask_schedule
+  - ask_supervisor
+  - ask_report
+  - ask_attendance
+  - ask_tasks
+  - ask_certificate
+  - ask_working_hours
+  - ask_feedback
+  - nlu_fallback
+
+responses:
+
+  utter_greet:
+    - text: "Hello! I am the Intern Support Assistant. How can I help you?"
+
+  utter_goodbye:
+    - text: "Goodbye! I hope I was able to help."
+
+  utter_ask_leave:
+    - text: "To apply for leave, please contact your internship supervisor and submit a leave request according to your organization's internship policy."
+
+  utter_ask_schedule:
+    - text: "You can check your internship schedule through the schedule provided by your organization or contact your supervisor for the latest schedule."
+
+  utter_ask_supervisor:
+    - text: "Your assigned supervisor is the main person to contact for internship-related questions. Please use your organization's official communication channel to contact them."
+
+  utter_ask_report:
+    - text: "Weekly reports should be submitted through the reporting system provided by your organization or directly to your assigned supervisor."
+
+  utter_ask_attendance:
+    - text: "Internship attendance is normally recorded according to your organization's attendance policy. Contact your supervisor if you need to check or correct your attendance."
+
+  utter_ask_tasks:
+    - text: "You can check your assigned internship tasks through your organization's task system or ask your supervisor for your current assignments."
+
+  utter_ask_certificate:
+    - text: "Internship certificates are normally provided after successful completion of the internship. Contact your supervisor or internship coordinator for the certificate procedure."
+
+  utter_ask_working_hours:
+    - text: "Internship working hours depend on your organization's schedule. Please check your assigned schedule or contact your supervisor."
+
+  utter_ask_feedback:
+    - text: "Feedback is normally provided by your supervisor during or after internship tasks. You can also ask your supervisor for a performance review."
+
+  utter_default:
+    - text: "I'm sorry, I couldn't understand your question. Please rephrase it or contact your internship supervisor for assistance."
+
+actions:
+  - action_search_faq
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

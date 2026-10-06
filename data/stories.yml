@@ -1,0 +1,58 @@
+version: "3.1"
+
+stories:
+
+- story: User greets the chatbot
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: User asks about leave
+  steps:
+    - intent: ask_leave
+    - action: utter_ask_leave
+
+- story: User asks about schedule
+  steps:
+    - intent: ask_schedule
+    - action: utter_ask_schedule
+
+- story: User asks about supervisor
+  steps:
+    - intent: ask_supervisor
+    - action: utter_ask_supervisor
+
+- story: User asks about reports
+  steps:
+    - intent: ask_report
+    - action: utter_ask_report
+
+- story: User asks about attendance
+  steps:
+    - intent: ask_attendance
+    - action: utter_ask_attendance
+
+- story: User asks about tasks
+  steps:
+    - intent: ask_tasks
+    - action: utter_ask_tasks
+
+- story: User asks about certificate
+  steps:
+    - intent: ask_certificate
+    - action: utter_ask_certificate
+
+- story: User asks about working hours
+  steps:
+    - intent: ask_working_hours
+    - action: utter_ask_working_hours
+
+- story: User asks about feedback
+  steps:
+    - intent: ask_feedback
+    - action: utter_ask_feedback
+
+- story: User says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye

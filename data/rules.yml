@@ -1,0 +1,63 @@
+version: "3.1"
+
+rules:
+
+- rule: Respond to greeting
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Respond to goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Answer leave questions
+  steps:
+    - intent: ask_leave
+    - action: utter_ask_leave
+
+- rule: Answer schedule questions
+  steps:
+    - intent: ask_schedule
+    - action: utter_ask_schedule
+
+- rule: Answer supervisor questions
+  steps:
+    - intent: ask_supervisor
+    - action: utter_ask_supervisor
+
+- rule: Answer report questions
+  steps:
+    - intent: ask_report
+    - action: utter_ask_report
+
+- rule: Answer attendance questions
+  steps:
+    - intent: ask_attendance
+    - action: utter_ask_attendance
+
+- rule: Answer task questions
+  steps:
+    - intent: ask_tasks
+    - action: utter_ask_tasks
+
+- rule: Answer certificate questions
+  steps:
+    - intent: ask_certificate
+    - action: utter_ask_certificate
+
+- rule: Answer working-hours questions
+  steps:
+    - intent: ask_working_hours
+    - action: utter_ask_working_hours
+
+- rule: Answer feedback questions
+  steps:
+    - intent: ask_feedback
+    - action: utter_ask_feedback
+
+- rule: Respond with fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_default
